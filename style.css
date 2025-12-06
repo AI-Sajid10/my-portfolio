@@ -143,4 +143,124 @@ body{
   border-radius: 20px;
   object-fit: cover;
 }
+/*----------Skills design ----------*/
+.skills-preview{
+  padding: 80px 40px;
+  background: f7f9fc;
+}
+.skills-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.skills-header h2 {
+    font-size: 38px;
+    font-weight: 700;
+}
+.skills-header p {
+    color: #666;
+    margin-top: 5px;
+}
+.view-all {
+    color: #2463eb;
+    font-weight: 600;
+    text-decoration: none;
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+.skill-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.05);
+    transition: 0.3s ease;
+}
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 25px rgba(0,0,0,0.07);
+}
+.skill-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.skill-card p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #555;
+}
+.percent {
+    float: right;
+    font-weight: 600;
+}
+.progress {
+    margin-top: 10px;
+    width: 100%;
+    height: 7px;
+    background: #e8ecf5;
+    border-radius: 10px;
+}
+.progress-bar {
+    height: 100%;
+    background: #2463eb;
+    border-radius: 10px;
+}
+.skill-top {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.skill-top img {
+    width: 32px;
+    height: 32px;
+}
+
+
+/* Special Counter Card */
+.counter-card {
+    text-align: center;
+}
+
+.counter-card .skill-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.counter-card img {
+    width: 40px;
+    height: 40px;
+    opacity: 0.9;
+}
+
+.counter-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-top: 5px;
+}
+
+/* Override progress bar (hide it for this card) */
+.counter-card .progress,
+.counter-card .progress-bar,
+.counter-card p .percent {
+    display: none !important;
+}
+
+
+/*-----skills design end------*/
+
+.section-divider {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to bottom, transparent, #f7f9fc);
+}
+
 /*hero section css end*/
