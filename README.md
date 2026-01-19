@@ -4,7 +4,8 @@ This is my personal **portfolio website** where I showcase my skills, projects, 
 
 🔗 **Live Website:**  
 👉 https://ai-sajid10.github.io/my-portfolio/
-
+🔗 **Figma Design Link:** 
+👉 https://www.figma.com/design/SRem2gwYlwYJx1Rm16Zuvh/ai_sajid-figma_design?node-id=0-1&t=6kgVMdd6j7wuTGwc-1
 ---
 
 ## 📌 About This Project
